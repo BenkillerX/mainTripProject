@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="../otherCSSpages/hotel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="shortcut icon" href="./Images/make-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="first-sect">
+        <img src="../Images/bg5.jpg" alt="" class="first-sect-img">
+        <nav>
+            <div class="right-side-nav">
+                <img src="../Images/makefull.png" alt="" class="logo">
+            </div>
+            <div class="left-side-nav">
+                <div class="nav-image">
+                    <img src="../Images/home-icon.png" alt="" class="nav-img">
+                    <div>
+                        <h4 class="nav-text">List your property</h4>
+                        <h6 class="nav-text">Grow your Business</h6>
+                    </div>
+                </div>
+                <div class="nav-image">
+                    <img src="../Images/bag-icon.png" alt="" class="nav-img">
+                    <div>
+                        <h4 class="nav-text">introducimg myBiz</h4>
+                        <h6 class="nav-text">BusinessTravelSolution</h6>
+                    </div>
+                </div>
+                <div class="nav-image">
+                    <img src="../Images/trip-icon.png" alt="" class="nav-img">
+                    <div>
+                        <h4 class="nav-text">My Trip</h4>
+                        <h6 class="nav-text">Manage your bookings</h6>
+                    </div>
+                </div>
+                <div class="nav-image log-place">
+                    <button class="my">My</button>
+                    <h4 class="log"> Login or create account </h4><i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nav-image ROW">
+                    <h5 class="nav-text Row">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        ROW
+                    </h5>
+                    <h5 class="nav-text Eng">ENG <i class="fas fa-chevron-down"></i></h5>
+                </div>
+                <div class="nav-image INR">
+                    <h5 class="nav-text Inr">INR <i class="fas fa-chevron-down"></i></h5>
+                </div>
+            </div>
+            <!-- From Uiverse.io by 3bdel3ziz-T -->
+            <div class="burger-icon">
+                <label class="burger" for="burger">
+                    <input class="line" type="checkbox" id="burger" />
+                </label>
+            </div>
+
+        </nav>
+        <div class="main">
+            <div class="hero-sect1">
+                <a href="../Index.html" class="img-anco">
+                    <img src="../Images/plane.png" alt="" class="hero-img">
+                    <p class="fly">Flights</p>
+                </a>
+                <a href="../otherHTMLpages/hotel.html" class="img-anco">
+                    <img src="../Images/hotel.png" alt="" class="hero-img">
+                    <p class="fly">Hotel</p>
+                </a>
+                <a href="../otherHTMLpages/homestay.html" class="img-anco">
+                    <img src="../Images/home.png" alt="" class="hero-img">
+                    <p class="fly">Homestays$<br>Villas</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/holiday.png" alt="" class="hero-img">
+                    <p class="fly">Holiday <br> packages</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/train.png" alt="" class="hero-img">
+                    <p class="fly">Trains</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/bus.png" alt="" class="hero-img">
+                    <p class="fly">Buses</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/cabs.png" alt="" class="hero-img">
+                    <p class="fly">Cabs</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/forex.png" alt="" class="hero-img">
+                    <p class="fly">ForexCard&<br>Currency</p>
+                </a>
+                <a href="" class="img-anco">
+                    <img src="../Images/Travel insurance.png" alt="" class="hero-img">
+                    <p class="fly">Travel</p>
+                </a>
+
+            </div>
+            <div class="hero-sect">
+                <div class="toggle">
+                    <div class="toggle-circle">
+                        <p class="toggle-text">
+                            <!-- From Uiverse.io by SharpTH -->
+                            <label for="cbx" class="cbx">
+                                <div class="checkmark">
+                                    <input checked="" type="checkbox" id="cbx">
+                                    <div class="flip">
+                                        <div class="front"></div>
+                                        <div class="back">
+                                            <svg viewBox="0 0 16 14" height="14" width="16">
+                                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </label><span class="upto">upto 4 Room</span>
+                        </p>
+                        <p class="toggle-text">
+                            <label for="cbx" class="cbx">
+                                <div class="checkmark">
+                                    <input checked="" type="checkbox" id="cbx">
+                                    <div class="flip">
+                                        <div class="front"></div>
+                                        <div class="back">
+                                            <svg viewBox="0 0 16 14" height="14" width="16">
+                                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </label>
+                            Group Deals
+                        </p>
+                    </div>
+                    <div>
+                        Book International And Domestic Flights
+                    </div>
+
+                    <div class="third-sect">
+                        <div class="thire-div div1">
+                            <p class="form">City,</p>
+                            <h1>
+                                Goa
+                            </h1>
+                            <p class="del">India</p>
+                        </div>
+
+                        <div class="thire-div div3">
+                            <p class="form">Cheak-in</p>
+                            <h1>
+                                4 <span class="feb">Mar',25</span>
+                            </h1>
+                            <p class="del">Tuesday</p>
+                        </div>
+                        <div class="thire-div div4">
+                            <p class="form">Cheak-in</p>
+                            <h1>
+                                5 <span class="feb">Mar',25</span>
+                            </h1>
+                            <p class="del">Wednesday</p>
+                        </div>
+                        <div class="thire-div div2">
+                            <p class="form">Room & Guest</p>
+                            <h1 class="Ben">
+                                1<span style="font-size: .5em; font-weight: 400;">Room</span>
+                                2<span style="font-size: .5em; font-weight: 400;">Room</span>
+                            </h1>
+
+                            <p class="del">BLR, Bengaluru international Airport...</p>
+                        </div>
+                        <div class="thire-div div5">
+                            <p class="form">Price per night</p>
+                            <h5>
+                                $10-$1000, $1000-2000...
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-div">
+                    <span class="last-div-trend">Trending Searches:</span> <button class="last-div-btn"><a
+                            href="#">Mumbia, India</a></button>
+                    <button class="last-div-btn"><a href="#">London, United Kingdom</a></button>
+                    <button class="last-div-btn"><a href="#">New York, United States</a></button>
+                </div>
+                <div class="btn-side">
+                    <button class="search"><a href="">Search</a></button>
+                </div>
+                <div class="inbetween">
+                    <div class="inbetween-div">
+                        <img src="./Images/travelcard.png" alt="" class="inbetween-pick">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mmt-sect">
+            <div class="left-mmt">
+                <p class="gap-sect "> Introducing</p>
+                <h1 class="gap-sect gapp2">MMT Luxe Selections</h1>
+                <p class="gap-sect">Escape to the epitome of luxury, packed with signature amenities and servicies</p>
+            </div>
+            <div class="right-mmt">
+                <div class="right-house">
+                    <div class="right-img">
+                        <img src="" alt="">
+                    </div>
+                    <h1 class="luke">Luxe Properties in India</h1>
+                    <p class="luke2">Eplore by Luxury brands, themes & top picks</p>
+                </div>
+                <div class="right-house">
+                    <div class="right-img2">
+                        <img src="" alt="">
+                    </div>
+                    <h1 class="luke">Luxe Villas</h1>
+                    <p class="luke2">Premium Villas with Superlative Experiance</p>
+                </div>
+                <div class="right-house">
+                    <div class="right-img3">
+                        <img src="" alt="">
+                    </div>
+                    <h1 class="luke">Luxe International</h1>
+                    <p class="luke2">Dubai,Maldives,Thailand & More</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="next-caro-sect">
+        <div class="inline-img"></div>
+        <h1 class="next-text2">
+            Experience Riyadh Season, a Celebration of <br> Culture, Entertainment & Adventure in Saudi!
+        </h1>
+        <button class="book-btn"><a href="#">Book Now</a></button>
+        <h1 class="next-text">Saudi Welcome To Arabia</h1>
+    </section>
+    <main>
+        <section class="second-sect">
+            <div class="second-section">
+                <header>
+                    <div class="header2">
+                        <div class="left-side-div">
+                            <h1>Offer</h1>
+                            <p class="all"><a href="">All offers</a></p>
+                            <p class="all"><a href="">Bank offers</a></p>
+                            <p class="all"><a href="">Flights</a></p>
+                            <p class="all"><a href="">Hotels</a></p>
+                            <p class="all"><a href="">Holidays</a></p>
+                            <p class="all"><a href="">Trains</a></p>
+                            <p class="all"><a href="">Cabs</a></p>
+                            <p class="all"><a href="">Buses</a></p>
+                            <p class="all"><a href="">Forex</a></p>
+                        </div>
+                        <div class="right-side-div">
+                            <p>View All</p>
+                        </div>
+                    </div>
+                    <div class="container swiper">
+                        <div class="card-wrapper">
+                            <ul class="card-list swiper-wrapper">
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider1.jpg" alt="" class="card-image">
+                                        </a>
+                                        <p>Book now</p>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                        <p>Book now</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider2.png" alt="" class="card-image slide2">
+                                        </a>
+                                        <p>Book now</p>
+                                    </div>
+
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                        <p>Book now</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider3.jpg" alt="" class="card-image slide3">
+                                        </a>
+                                        <p>Book now</p>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider4.png" alt="" class="card-image  slide4">
+                                        </a>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider5.png" alt="" class="card-image  slide4">
+                                        </a>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider6.png" alt="" class="card-image  slide4">
+                                        </a>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider7.jpg" alt="" class="card-image  slide4">
+                                        </a>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                                <li class="card-item swiper-slide">
+                                    <div class="right-card">
+                                        <a href="#" class="card-link">
+                                            <img src="../Images/slider7 (2).jpg" alt="" class="card-image  slide4">
+                                        </a>
+                                    </div>
+                                    <div class="left-card">
+                                        <div class="top-sect">
+                                            <p class="no-margin">DOM FLIGHTS</p>
+                                            <p v>T&C'S Apply</p>
+                                        </div>
+                                        <h1 class="no-margin impo">
+                                            Grab FLAT12%OFF* on Domsestic Flights
+                                        </h1>
+                                        <p class="no-margin">With American Express Card</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                        <div class="container swiper">
+                            <div class="card-wrapper">
+                                <ul class="card-list swiper-wrapper">
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider1.jpg" alt="" class="card-image">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider2.png" alt="" class="card-image slide2">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider3.jpg" alt="" class="card-image slide3">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider4.png" alt="" class="card-image  slide4">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider5.png" alt="" class="card-image  slide4">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider6.png" alt="" class="card-image  slide4">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider7.jpg" alt="" class="card-image  slide4">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                    <li class="card-item swiper-slide">
+                                        <div class="right-card">
+                                            <a href="#" class="card-link">
+                                                <img src="../Images/slider7 (2).jpg" alt="" class="card-image  slide4">
+                                            </a>
+                                        </div>
+                                        <div class="left-card">
+                                            <div class="top-sect">
+                                                <p class="no-margin">DOM FLIGHTS</p>
+                                                <p v>T&C'S Apply</p>
+                                            </div>
+                                            <h1 class="no-margin impo">
+                                                Grab FLAT12%OFF* on Domsestic Flights
+                                            </h1>
+                                            <p class="no-margin">With American Express Card</p>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+
+                            </div>
+                        </div>
+                </header>
+            </div>
+        </section>
+    </main>
+    <section class="section-three">
+        <div class="Download">
+            <img src="../Images/gift-box.png" alt="">
+            <div>
+                <h1>Download App Now!</h1>
+                <p class="use">Use code <span class="bold-span">WELCOMEMMT</span>and get Up to <span
+                        class="bold-span">Rs.5000 OFF</span>on your first domestic hotel booking</p>
+            </div>
+        </div>
+        <div class="Download-right" style="border: none;">
+            <div class="qr-part">
+                <button class="download-source"><a href="#">Googleplay</a></button>
+                <button class="download-source"><a href="#">App Store</a></button>
+            </div>
+            <div class="qr-img">
+
+            </div>
+        </div>
+    </section>
+    <section class="section-four">
+        <div class="fourth-sect-divs">
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img2"></div>
+                <div>
+                    <h1 class="inline-hone">Ooty</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img3"></div>
+                <div>
+                    <h1 class="inline-hone">Jaipur</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img4"></div>
+                <div>
+                    <h1 class="inline-hone">Singapore</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img5"></div>
+                <div>
+                    <h1 class="inline-hone">Phuket</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-sect-divs">
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels, <br> Near IGI Airport</p>
+                </div>
+            </div>
+            
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels, <br> Near IGI Airport</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels, <br> Near IGI Airport</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels, <br> Near IGI Airport</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img6"></div>
+                <div>
+                    <h1 class="inline-hone">Others</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels, <br> Near IGI Airport</p>
+                </div>
+            </div>
+        </div>
+        <div class="fourth-sect-divs">
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+            <div class="imline-img">
+                <div class="inside-img"></div>
+                <div>
+                    <h1 class="inline-hone">Goa</h1>
+                    <p>Hotels, Budget Hotels, Resorts, Best Hotels,<br> North Goa, Villas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h1 class="foot-hone">
+                MakeMyTrip
+            </h1>
+            <p class="foot-para">
+                About Us, Investor Relations, Careers, Sustainability, MMT Foundation, Legal Notices, CSR Policy & Committee, myPartner - Travel Agent Portal, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with Us, Holiday-Franchise, Partners- BookMyForex, RedBus Ferry Malaysia, RedBus Ferry Singapore, redBus Vietnam, redBus Cambodia, Things to Do in Malaysia, Things to Do in Singapore
+
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Quick Links
+            </h1>
+            <p class="foot-para">
+                Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                About the site
+            </h1>
+            <p class="foot-para">
+                Customer Support, Payment Security, Privacy Policy, Cookie Policy, User Agreement, Terms of Service, Franchise Offices, Make A Payment, Work From Home, Escalation Channel, Report Security Issues
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Important Links
+            </h1>
+            <p class="foot-para">
+                Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Corporate trave
+            </h1>
+            <p class="foot-para">
+                Business Travel, Corporate Travel, Corporate Travel Management, Corporate Travel Solution, Corporate Hotel Booking, Corporate Flight Booking, Expense Management, Corporate Expense Management, GST on Hotel Rooms, GST on Flight Tickets, Business Travel for SME, GST Invoice for International flights, GST Invoice for Bus, GST on Train Tickets, T&E (Travel & Expense), myBiz - Best Business Travel Platform, GST Invoice for Corporate Travel, myBiz for Small Business, Free cancellation on International Flights
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Product Offering
+            </h1>
+            <p class="foot-para">
+                Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Forex Card, Buy Foreign Currency, Travel Insurance, Travel Insurance Thailand, Travel Insurance For UAE, Travel Insurance For Indonesia, Travel Insurance For Vietnam, Travel Insurance For Europe, Travel Insurance For USA, Travel Insurance for Singapore, Travel Insurance for Malaysia, Travel Insurance for Sri Lanka, Travel Insurance for United Kingdom, Travel Insurance for Canada, Gift Cards, Gift, Wedding Gift, Anniversary Gift, Birthday Gift, Diwali Gift, Valentines Gift, Farewell Gift, Christmas Gift, New Year Gift, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Top Hotels In India
+            </h1>
+            <p class="foot-para">
+                Fairmont Jaipur, St Regis Goa, Six Senses Fort Barwara, W Goa, Grand Hyatt Goa, Shangri-La Bangalore, The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh Palace Jaipur, Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott Chandigarh, Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc Maratha Mumbai, Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune, Park Hyatt Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The Ritz Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal Kolkata, Taj Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The Leela Palace New Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai, Best Hotels in India
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Top International Hotels
+            </h1>
+            <p class="foot-para">
+                Adaaran Club Rannalhi, Marina Bay Sands Singapore, Coco Bodu Hithi, Taj Dubai, Atlantis Hotel Dubai, Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon Maldives, Gevora Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace, Baiyoke Sky Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach Resort, Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel Pattaya, Taj Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj Exotica Resort Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel Albert Court, Amari Pattaya
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">
+                Book Hotels in India from Top Destinations
+            </h1>
+            <p class="foot-para">
+                Hotels in Jaipur, Hotels in Goa, Hotels in Delhi, Hotels in Udaipur, Hotels in Gurgaon, Hotels in Mumbai, Hotels in Bangalore, Hotels in Rishikesh, Hotels in Agra, Hotels in Chennai, Hotels in Kasauli, Hotels in Kolkata, Hotels in Pune, Hotels in Manali, Hotels in Lonavala, Hotels in Shimla, Hotels in Munnar, Hotels in Ayodhya, Hotels in Gulmarg, Hotels in Leh, Hotels in Hyderabad
+            </p>
+        </div>
+    </footer>
+    <footer class="footer-two">
+        <div >
+            <h1 class="foot-hone">Why MakeMyTrip?</h1>
+            <p class="foot-para">
+                Established in 2000, MakeMyTrip has since positioned itself as one of  the leading companies, providing great offers, competitive airfares,exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">Booking Flights with MakeMyTrip</h1>
+            <p class="foot-para">
+                At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.
+            </p>
+        </div>
+        <div>
+            <h1 class="foot-hone">Domestic Flights with MakeMyTrip</h1>
+            <p class="foot-para">
+                MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.
+            </p>
+        </div>
+    </footer>
+    <footer class="footer-four">
+        <div>
+            <h1 class="footer-fourhone">Why MakeMyTrip?</h1>
+            <p class="footer-four-text">
+                Established in 2000, MakeMyTrip has since positioned itself as one of the leading <br> companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.
+            </p>
+
+        </div>
+        <div>
+            <h1 class="footer-fourhone">Booking Flights with MakeMyTrip</h1>
+            <p class="footer-four-text">
+                At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.
+            </p>
+
+        </div>
+        <div>
+            <h1 class="footer-fourhone"> Domestic Flights with MakeMyTrip</h1>
+            <p class="footer-four-text">
+                MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.
+            </p>
+
+        </div>
+    </footer>
+    <footer class="footer-three">
+        <div>
+            <img src="../Images/Twitter.png" alt="" class="foot-img">
+            <img src="../Images/instagram.png" alt="" class="foot-img">
+            <img src="../Images/facebook.png" alt="" class="foot-img">
+            <img src="../Images/linkdin.png" alt="" class="foot-img">
+        </div>
+        <div>
+            <p>@2025MAKEMYTRIPPVT.LTD</p>
+            <p><span>Country</span> India USA UAE</p>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
