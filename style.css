@@ -842,7 +842,7 @@
     width: 60vh;
     height: 50vh;
     background-color: red;
-    background-image: url(./Images/Radisson.jpg);
+    background-image: url(./images/Radisson.jpg);
     border-radius: 15px;
   }
   .right-card{
@@ -861,7 +861,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/Floating\ Huts.jpg);
+    background-image: url(./images/Floating\ Huts.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -875,7 +875,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: blue;
-    background-image: url(./Images/Radisson.jpg);
+    background-image: url(./images/Radisson.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -889,7 +889,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/Waterwoods.jpg);
+    background-image: url(./images/Waterwoods.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -903,7 +903,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/beach.jpg);
+    background-image: url(./images/beach.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -917,7 +917,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/weekend.jpg);
+    background-image: url(./images/weekend.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -931,7 +931,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/hill_stations.jpg);
+    background-image: url(./images/hill_stations.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -945,7 +945,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/Australia_destination.jpg);
+    background-image: url(./images/Australia_destination.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -959,7 +959,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/Amritsar.jpg);
+    background-image: url(./images/Amritsar.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -973,7 +973,7 @@
     height: 50vh;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/pilgrimage.jpg);
+    background-image: url(./images/pilgrimage.jpg);
     width: 40vh !important;
     height: 50vh !important;
     border-radius: 15px !important;
@@ -990,7 +990,7 @@
     background-size: cover;
     border: thin solid black;
     background-color: red;
-    background-image: url(./Images/destination-alleppey.jpg);
+    background-image: url(./images/destination-alleppey.jpg);
     position: relative;
     padding: 20px;
   }
