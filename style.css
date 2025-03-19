@@ -4,11 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-  body{
-    /* background-color: rgba(116, 103, 103, 0.785); */
-    /* height: 1000vh !important; */
-    /* overflow-x: hidden !important; */
-  }
   .first-sect {
     position: relative;
     opacity: 1;
