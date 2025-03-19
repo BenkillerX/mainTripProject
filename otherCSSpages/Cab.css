@@ -611,21 +611,21 @@ body{
     box-shadow: 0.5px 0px 3px;
   }
   .right-img{
-    background-image: url(../Images/brands.png);
+    background-image: url(../images/brands.png);
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
   }
   .right-img2{
-    background-image: url(../Images/luxe_villa.jpg);
+    background-image: url(../images/luxe_villa.jpg);
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
     }
     .right-img3{
-      background-image: url(../Images/maldives.jpg);
+      background-image: url(../images/maldives.jpg);
       height: 25vh;
       background-repeat: no-repeat;
       background-size: cover;
@@ -644,7 +644,7 @@ body{
     /* background-color: red; */
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-image: url(../Images/maldives.jpg);
+    background-image: url(../images/maldives.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -819,7 +819,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/GoaDT.jpg);
+    background-image: url(../images/GoaDT.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -828,7 +828,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/50x50-Ooty-23052019.jpg);
+    background-image: url(../images/50x50-Ooty-23052019.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -837,7 +837,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/slider6.png);
+    background-image: url(../images/slider6.png);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -846,7 +846,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/popular\ area.jpg);
+    background-image: url(../images/popular\ area.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -855,7 +855,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/shutterstock_1008532504.jpg);
+    background-image: url(../images/shutterstock_1008532504.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -864,7 +864,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/50x50-Other-23052019.jpg);
+    background-image: url(../images/50x50-Other-23052019.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }

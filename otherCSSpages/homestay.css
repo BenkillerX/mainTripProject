@@ -556,7 +556,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/GoaDT.jpg);
+    background-image: url(../images/mages/GoaDT.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -565,7 +565,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/50x50-Ooty-23052019.jpg);
+    background-image: url(../images/mages/50x50-Ooty-23052019.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -574,7 +574,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/slider6.png);
+    background-image: url(../images/mages/slider6.png);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -583,7 +583,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/popular\ area.jpg);
+    background-image: url(../images/mages/popular\ area.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -592,7 +592,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/shutterstock_1008532504.jpg);
+    background-image: url(../images/mages/shutterstock_1008532504.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -601,7 +601,7 @@ body{
     height: 65px;
     background-color: blue;
     border-radius: 50%;
-    background-image: url(../Images/50x50-Other-23052019.jpg);
+    background-image: url(../images/mages/50x50-Other-23052019.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
   }
@@ -624,7 +624,7 @@ body{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: red;
-    background-image: url(../Images/Destination.jpg);
+    background-image: url(../images/mages/Destination.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -647,7 +647,7 @@ body{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: red;
-    background-image: url(../Images/saudi-welcome.png);
+    background-image: url(../images/mages/saudi-welcome.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -729,21 +729,21 @@ body{
     box-shadow: 0.5px 0px 3px;
   }
   .right-img{
-    background-image: url(../Images/brands.png);
+    background-image: url(../images/mages/brands.png);
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
   }
   .right-img2{
-    background-image: url(../Images/luxe_villa.jpg);
+    background-image: url(../images/mages/luxe_villa.jpg);
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
     }
     .right-img3{
-      background-image: url(../Images/maldives.jpg);
+      background-image: url(../images/);
       height: 25vh;
       background-repeat: no-repeat;
       background-size: cover;
@@ -762,7 +762,7 @@ body{
     /* background-color: red; */
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-image: url(../Images/maldives.jpg);
+    background-image: url(../images/);
     background-repeat: no-repeat;
     background-size: cover;
   }
